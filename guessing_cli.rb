@@ -9,7 +9,7 @@ def run_guessing_game
     case user_input.chomp
       when random_num 
         puts "You guessed the correct number!"
-    elsif user_input == "exit"
+      when "exit"
       puts "Goodbye!"
       break
     elsif user_input != random_num
