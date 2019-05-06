@@ -1,7 +1,7 @@
 require 'pry'
 
 def run_guessing_game
- user_input = gets.chomp
+ user_input = ""
   while user_input
     puts "Guess a number between 1 and 6."
     random_num = rand(1..6)
